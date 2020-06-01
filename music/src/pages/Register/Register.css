@@ -1,0 +1,23 @@
+.Register {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.Register h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.Register .ant-form {
+  position: absolute;
+  width: 70% !important;
+  height: 70% !important;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Register .ant-form .code {
+  width: 100px;
+}
+.Register .ant-form .get_code {
+  margin-left: 20px;
+}

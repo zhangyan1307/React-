@@ -1,0 +1,97 @@
+.Recommend {
+  width: 100%;
+  height: 100%;
+  padding-top: 21px;
+}
+.Recommend .Recommend_MusicList {
+  width: 100%;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_Title {
+  border-left: 2px solid #d33a31;
+  padding-left: 9px;
+  font-size: 16px;
+  color: #333333;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main {
+  width: 100%;
+  height: 334px;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main ul li {
+  width: 123px;
+  height: 157px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main ul li .img_container {
+  width: 123px;
+  height: 123px;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main ul li .img_container img {
+  width: 100%;
+  height: 100%;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main ul li p {
+  font-size: 12px;
+  padding: 7px 0 0 7px;
+  color: black;
+}
+.Recommend .Recommend_MusicList .Recommend_MusicList_main ul li .play_num {
+  font-size: 11px ;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.Recommend .Recommend_song {
+  width: 100%;
+  height: 630px;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Recommend .Recommend_song .Recommend_MusicList_Title {
+  border-left: 2px solid #d33a31;
+  padding-left: 9px;
+  font-size: 16px;
+  color: #333333;
+}
+.Recommend .Recommend_song ul {
+  width: 97%;
+  padding-left: 10px;
+  height: 583px;
+  align-self: flex-end;
+}
+.Recommend .Recommend_song ul li {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #f3f3f4;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Recommend .Recommend_song ul li .Recommend_song_Title {
+  height: 36px;
+}
+.Recommend .Recommend_song ul li .Recommend_song_Title .songname {
+  font-size: 16px;
+  color: #333;
+}
+.Recommend .Recommend_song ul li .Recommend_song_Title .singer {
+  font-size: 11px;
+  color: #888;
+  margin-top: 5px;
+}
+.Recommend .Recommend_song ul li i {
+  align-self: center;
+  margin-right: 15px;
+}

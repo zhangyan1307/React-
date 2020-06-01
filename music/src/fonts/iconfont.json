@@ -1,0 +1,44 @@
+{
+  "id": "1818244",
+  "name": "wangyimusic",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7629050",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "5043554",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10997405",
+      "name": "search",
+      "font_class": "-search",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "4909555",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13864085",
+      "name": "搜索--1",
+      "font_class": "soushuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

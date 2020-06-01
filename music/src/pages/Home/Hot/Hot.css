@@ -1,0 +1,62 @@
+.Hot {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Hot header {
+  width: 100%;
+  height: 146px;
+  background-color: #a55243;
+  padding-left: 30px;
+}
+.Hot header p {
+  font-size: 30px;
+  color: #fff;
+  line-height: 146px;
+}
+.Hot main {
+  flex: 1;
+}
+.Hot main ul {
+  width: 100%;
+  height: 583px;
+  align-self: flex-end;
+}
+.Hot main ul li {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Hot main ul li .red {
+  color: red;
+}
+.Hot main ul li span {
+  width: 40px;
+  text-align: center;
+  line-height: 45px;
+}
+.Hot main ul li .right {
+  border-bottom: 1px solid #f3f3f4;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.Hot main ul li .right .Recommend_song_Title {
+  height: 36px;
+}
+.Hot main ul li .right .Recommend_song_Title .songname {
+  font-size: 16px;
+  color: #333;
+}
+.Hot main ul li .right .Recommend_song_Title .singer {
+  font-size: 11px;
+  color: #888;
+  margin-top: 5px;
+}
+.Hot main ul li .right i {
+  align-self: center;
+  margin-right: 15px;
+}

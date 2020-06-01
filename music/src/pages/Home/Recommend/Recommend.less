@@ -1,0 +1,97 @@
+.Recommend{
+    width: 100%;
+    height: 100%;
+    padding-top: 21px;
+    .Recommend_MusicList{
+        width: 100%;
+        height: 364px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .Recommend_MusicList_Title{
+            border-left: 2px solid #d33a31;
+            padding-left: 9px;
+            font-size: 16px;
+            color: #333333;
+        }
+        .Recommend_MusicList_main{
+            width: 100%;
+            height: 334px;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li{
+                    width: 123px;
+                    height: 157px;
+                    margin-bottom: 20px;
+                    position: relative;
+                    .img_container{
+                        width: 123px;
+                        height: 123px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    p{
+                        font-size: 12px;
+                        padding: 7px 0 0 7px;
+                        color: black;
+                    }
+                    .play_num{
+                        font-size:11px ;
+                        color: white;
+                        position: absolute;
+                        top: 0px;
+                        right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .Recommend_song{
+        width: 100%;
+        height: 630px;
+        margin-top: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .Recommend_MusicList_Title{
+            border-left: 2px solid #d33a31;
+            padding-left: 9px;
+            font-size: 16px;
+            color: #333333;
+        }
+        ul{
+            width: 97%;
+            padding-left: 10px;
+            height: 583px;
+            align-self: flex-end;
+            li{
+                width: 100%;
+                height: 45px;
+                border-bottom: 1px solid #f3f3f4;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                .Recommend_song_Title{
+                    height: 36px;
+                    .songname{
+                        font-size: 16px;
+                        color: #333;
+                    }
+                    .singer{
+                        font-size: 11px;
+                        color: #888;
+                        margin-top: 5px;
+                    }
+                }
+                i{
+                    align-self: center;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

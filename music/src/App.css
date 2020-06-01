@@ -1,0 +1,63 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {margin:0;padding:0;box-sizing: border-box; }
+
+body {background:#fff;color:#666;font-size:16px;font-family:Microsoft YaHei; }
+
+td,th,caption{font-size:12px; }
+
+h1, h2, h3, h4, h5, h6{font-weight:normal;font-size:100%; }
+
+address,caption, cite,code, dfn, em, strong, th, var {font-style:normal;font-weight:normal;}
+
+a {color:#666;text-decoration:none;outline:none; }
+
+img {border:none; }
+
+ol,ul,li {list-style:none; }
+
+input, textarea, select, button {font-size:12px;font-family:Microsoft YaHei; }
+
+table {border-collapse:collapse; }
+
+html,body,#root{ overflow-x:hidden;width:100%;height: 100%; font-size: 15px;user-select: none;}
+
+b,strong,i,em{font-style:normal; }
+.active{
+    color: red !important;
+    border-bottom: 2px solid #dd001b;
+}
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 124px;
+}
+.header .red{
+    width: 100%;
+    height: 84px;
+    background-color: #d43c33;
+    padding-left: 43px;
+}
+.header .red span{
+    font-size: 19px;
+    color: white;
+    line-height: 84px;
+}
+.header .nav{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+}
+.header .nav a{
+    color: black;
+}
+.main{
+    flex: 1;
+    overflow-y: auto;
+}
