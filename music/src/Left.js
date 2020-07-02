@@ -5,7 +5,7 @@ export default class Left extends Component {
         super()
         this.state={
             uname:'',
-            content:''
+            content:'123'
         }
     }
     add() {
